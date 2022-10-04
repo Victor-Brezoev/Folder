@@ -14,7 +14,7 @@ import {
 
 const cardProps = [
   {
-    //   image: { src: '/img/heroimg.png', alt: '', width: 10, height: 24 },
+    image: { src: '/img/heroimg.png', alt: '', width: 50, height: 70 },
     title: 'Brief',
     description:
       'Complete brief writing or simply guidance on what to include, we have got you covered.'
@@ -27,7 +27,7 @@ const cardProps = [
         )),
   },
   {
-    //   image: { src: '/img/heroimg.png', alt: '', width: 1000, height: 1680 },
+    image: { src: '/img/heroimg.png', alt: '', width: 50, height: 70 },
     title: 'Search',
     description:
       'In-debth agency search covering; criteria matching, door knocking and due-dilligenc evetting.'
@@ -40,7 +40,7 @@ const cardProps = [
         )),
   },
   {
-    //   image: { src: '/img/heroimg.png', alt: '', width: 1000, height: 1680 },
+    image: { src: '/img/heroimg.png', alt: '', width: 50, height: 70 },
     title: 'Pitch',
     description:
       'Comprehensive pitch management, including comms, diary management and pitch hosting.'

@@ -12,13 +12,13 @@ export const Card = ({ image, title, description, ...props }) => {
   return (
     <CardMain>
       <CardMedia>
-        {/* <Image
+        <Image
           layout="responsive"
           src={image.src}
           alt={image.alt}
           width={image.width}
           height={image.height}
-        /> */}
+        />
       </CardMedia>
       <CardInner>
         <CardTitle>{title}</CardTitle>

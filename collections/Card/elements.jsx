@@ -2,9 +2,10 @@ import styled from 'styled-components';
 
 export const CardMain = styled(({ ...props }) => <div {...props} />)`
   display: flex;
+  align-items: center;
+  justify-content: center;
   background: #f4f4f4;
   margin-bottom: 14px;
-  max-width: 370px;
   text-align: start;
   padding: 10px;
   border-radius: 6px;
@@ -12,10 +13,19 @@ export const CardMain = styled(({ ...props }) => <div {...props} />)`
     box-shadow: inset 0px 0px 0px 5px lightblue;
     cursor: pointer;
   }
+  &:nth-child(1) {
+    max-width: 380px;
+  }
+  &:nth-child(2) {
+    max-width: 410px;
+  }
+  &:nth-child(3) {
+    max-width: 440px;
+  }
 `;
 
 export const CardInner = styled(({ ...props }) => <div {...props} />)`
-  display: block;
+  // display: block;
 `;
 
 export const Cardbody = styled(({ ...props }) => <div {...props} />)`
@@ -27,6 +37,7 @@ export const Cardbody = styled(({ ...props }) => <div {...props} />)`
 
 export const CardMedia = styled(({ ...props }) => <div {...props} />)`
   width: 190px;
+  margin-right: 3px;
 `;
 export const CardTitle = styled(({ ...props }) => <div {...props} />)`
   font-weight: 700;

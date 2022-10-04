@@ -19,6 +19,10 @@ export const StyledImageContainer = styled(({ ...props }) => (
   max-height: 65rem;
   width: 100%;
   height: 100%;
+
+  @media (max-width: 967px) {
+    margin-bottom: 20px;
+  }
 `;
 
 export const WrapperMain = styled(({ ...props }) => <div {...props} />)`
@@ -44,6 +48,10 @@ export const InnerMain = styled(({ ...props }) => <div {...props} />)`
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+
+  @media (max-width: 967px) {
+    flex-direction: column;
+  }
 `;
 
 export const Cards = styled(({ ...props }) => <div {...props} />)`
